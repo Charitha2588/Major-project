@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  height: 100vh;
+  color: #555;
+  /* background-color: #862e9c;
+   */
+  background-image: linear-gradient(to right top, #862e9c 40%, #eebefa);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  display: flex;
+  width: 70%;
+  height: 80vh;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  /* border: 4px solid red; */
+  background-color: #eebefa;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 80px;
+  margin-left: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
+.logo {
+  height: 24px;
+  width: 24px;
+}
+
+.logo-name {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #862e9c;
+}
+
+.logo-name span {
+  color: #862e9c;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+
+.main-container h2 {
+  padding: 0 32px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.main-container h2 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ether-illus {
+  width: 250px;
+  height: 250px;
+}

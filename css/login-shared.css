@@ -1,0 +1,125 @@
+/* --- 01 TYPOGRAPHY SYSTEM
+
+-Font size system (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* 
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+ */
+
+.right {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .form-container {
+  margin: 0 auto;
+} */
+
+.form-container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #495057;
+  margin-bottom: 32px;
+  display: inline-block;
+  border-bottom: 4px solid #862e9c;
+}
+
+.inputBox {
+  margin-bottom: 16px;
+  /* padding: 12px 0; */
+  position: relative;
+}
+
+.inputBox span {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #868e96;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid #862e9c;
+  background: transparent;
+  border-radius: 30px;
+  margin-bottom: 18px;
+}
+
+.inputBox.success input {
+  border-color: #2ecc71;
+}
+
+.inputBox.error input {
+  border-color: #e74c3c;
+}
+
+.inputBox i {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.inputBox.success i.fa-circle-check {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.inputBox.error i.fa-circle-exclamation {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.inputBox small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.inputBox.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.inputBox input[type='submit'] {
+  margin-top: 32px;
+  background: #862e9c;
+  color: #fff;
+  cursor: pointer;
+}
+
+.inputBox input[type='submit']:hover {
+  background: #ae3ec9;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: #868e96;
+}
+
+.signup:link,
+.signup:visited {
+  color: #862e9c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup:hover,
+.signup:active {
+  color: #ae3ec9;
+}
