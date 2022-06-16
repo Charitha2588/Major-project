@@ -1,0 +1,245 @@
+/* navbar */
+
+/* nav {
+  width: 70%;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'poppins', sans-serif;
+}
+
+header {
+  background-color: #eebefa;
+  padding: 20px 8px;
+}
+
+.navbar {
+  width: 50%;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .active {
+  background-color: #862e9c;
+  color: #fff !important;
+}
+
+.navbar a:link,
+.navbar a:visited {
+  text-decoration: none;
+  /* background-color: #862e9c; */
+  color: #495057;
+  padding: 8px 10px;
+  border-radius: 20px;
+}
+
+.navbar a:active,
+.navbar a:hover {
+  background-color: #862e9c;
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* display: none; */
+}
+
+.enroll-container {
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.enroll-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  /* color: #495057;
+ */
+  color: #862e9c;
+  margin-bottom: 32px;
+  display: inline-block;
+  /* border-bottom: 4px solid #862e9c; */
+}
+
+.inputBox {
+  margin-bottom: 16px;
+  /* padding: 12px 0; */
+  position: relative;
+}
+
+.inputBox span {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
+  color: #868e96;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  outline: none;
+  border: 1px solid #862e9c;
+  background: transparent;
+  border-radius: 30px;
+  margin-bottom: 18px;
+}
+
+.inputBox.success input {
+  border-color: #2ecc71;
+}
+
+.inputBox.error input {
+  border-color: #e74c3c;
+}
+
+.inputBox i {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  visibility: hidden;
+}
+
+.inputBox.success i.fa-circle-check {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.inputBox.error i.fa-circle-exclamation {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.inputBox small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.inputBox.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+button {
+  margin-top: 32px;
+  padding: 8px 10px;
+  background: #862e9c;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+button:hover {
+  background: #ae3ec9;
+}
+
+/* .form {
+  display: none;
+} */
+
+#view-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 18px;
+}
+
+#select-course {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label {
+  font-size: 24px;
+  margin-right: 24px;
+  /* vertical-align: center; */
+}
+
+select {
+  width: 200px;
+  padding: 8px 16px;
+  border: 3px solid #862e9c;
+}
+
+#view-table {
+  margin: auto;
+  margin-top: 90px;
+  border-collapse: collapse;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+}
+
+#view-table thead tr {
+  background-color: #862e9c;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+}
+
+#view-table th,
+#view-table td {
+  padding: 14px 53px;
+}
+
+#view-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#view-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+#view-table tbody tr:last-of-type {
+  border-bottom: 2px solid #862e9c;
+}
+
+.headings {
+  padding: 8px 24px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.view-btn {
+  text-decoration: none;
+  color: #862e9c;
+}
+
+.msg {
+  /* background-color: #2ecc71; */
+  font-size: 24px;
+  color: #635f5f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 86px;
+}
